@@ -70,7 +70,11 @@ body {
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    background-color: #fff
+    background-color: black;
+    display:flex;
+    flex-direction:column;
+    gap:120px;
+
 }
 
 [tabindex="-1"]:focus {
