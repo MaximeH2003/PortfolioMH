@@ -1,0 +1,22 @@
+.btnTop{
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+  }
+.icone{
+  width: 75px;
+  height: 75px;
+}
+
+
+/* @media screen and (max-width: 767px) {
+  .btnTop-responsive{
+    margin-right: 767px;
+  }
+} */
+
