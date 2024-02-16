@@ -126,7 +126,7 @@ strong {
 }
 
 .section {
-    padding: 7rem 0;
+    padding: 3.5rem 0rem 3.5rem 0rem ;
 }
 
 
@@ -236,7 +236,20 @@ a:focus {
 
 .feature {
     background: var(--dark-color);
-    padding: 5rem 0;
+}
+.feature > div > div > ul {
+    font-size: large;
+}
+.feature > div > div > ul > li {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+@media screen and (max-width: 768px) {
+    .feature > div > div > ul > li {
+        display: block;
+        gap: 2px;
+    }
 }
 
 
@@ -379,10 +392,10 @@ a:focus {
     opacity: 0.85;
 }
 
-div.container>div.row {
+/* div.container>div.row {
     display: flex;
-    gap: 45px;
-}
+    gap: 25px;
+} */
 
 .team-thumb {
     position: relative;
@@ -393,9 +406,23 @@ div.container>div.row {
     background: var(--white-color);
     border-radius: 0 0 2px 2px;
     /* box-shadow: 6px 0 38px rgba(20, 20, 20, 0.10); */
-    padding: 20px;
+    padding: 35px 20px 20px 20px;
     position: relative;
+    height: 6.7em;
+    margin: 5px;
 }
+@media screen and (max-width: 900px) {
+    .team-info{
+        display: flex;
+        align-items: center;
+        height: 3.7em;
+        padding: 20px 20px 20px 20px;        
+    }
+    .team-info > h3{
+        font-size: 300%;
+    }
+}
+
 
 .team-info span {
     font-weight: var(--font-weight-light);
@@ -412,46 +439,9 @@ div.container>div.row {
     display: block;
 }
 
-
-/*------------------------
-SECTION RAJOUTE
------------------------------*/
-
-.gradientCSS {
-    background: rgb(0, 0, 0);
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(82, 82, 82, 1) 36%, rgba(163, 163, 163, 1) 57%, rgba(116, 116, 116, 1) 73%, rgba(0, 0, 0, 1) 100%);
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-    vertical-align: middle;
-    min-height: 100vh;
-    position: relative;
-}
-
-
-.whiteSection {
-    background-color: white;
-}
-
-
 /*---------------------------------------
      CONTACT              
   -----------------------------------------*/
-
-.webform input,
-button#submit-button {
-    height: calc(2.25rem + 20px);
-}
-
-.form-control {
-    border-radius: var(--border-radius-small);
-    margin: 1.3rem 0;
-}
-
-.form-control:focus {
-    box-shadow: none;
-    border-color: var(--dark-color);
-}
 
 button#submit-button {
     background: var(--dark-color);
@@ -478,7 +468,6 @@ button#submit-button:hover {
 .google-map iframe {
     width: 100%;
 }
-
 
 /*---------------------------------------
      FOOTER              
