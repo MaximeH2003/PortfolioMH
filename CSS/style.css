@@ -1,0 +1,144 @@
+/* li.markerPoint::marker {
+    color: rgb(0, 94, 195);
+    list-style-type: square;
+} */
+
+.noLi{
+    list-style-type: none;
+}
+.none{
+    text-decoration: none;
+}
+.ULI{
+    list-style-type: square;
+}
+.linkHobbies , .titleH6{
+    text-decoration: underline;
+    font-weight: 700;
+}
+.titleH6{
+    margin: 8px 0px 8px 0px !important;
+}
+
+
+/*------------------------
+Mes Projets Liens
+-----------------------------*/
+
+#Network{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 24vh;
+    position: relative;
+}
+
+/*----------------------------------------------------------------
+SECTION skills
+-------------------------------------------------------------------*/
+
+.skills{
+    color: white;
+    background: var(--dark-color);
+}
+.skills > div > div > ul {
+    font-size: large;
+}
+/* #skills > a{
+    font-weight: bold;
+    color: #636060;
+} */
+
+/*------------------------
+Veilles Technologiques
+-----------------------------*/
+
+#technology{
+    background-image: url(../images/fondSpatial.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: #171819; */    
+}
+
+.flex-row {
+    width: 105%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 4%;
+    text-align: center;
+    /* margin: 60px 10px 60px 10px; */
+}
+.imgTechnologyRight{
+    width: 350px;
+    height: auto !important;
+}
+
+.imgTechnology {
+    width: auto !important;
+    height: 130px;
+    /* background-image: url(../images/background.jpg); */
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 24vh;
+    position: relative;
+}
+/* #divImgTechnology{
+    
+} */
+
+
+/*------------------------
+SECTION RAJOUTE FINALE
+-----------------------------*/
+
+.gradientCSS {
+    background: rgb(172,172,172);
+    background: linear-gradient(0deg, rgba(172,172,172,0.9389005602240896) 0%, rgba(176,176,176,1) 9%, rgba(145,145,145,1) 22%, rgba(67,69,70,1) 53%, rgba(23,24,25,1) 89%);
+    
+    /* background-image: url("../images/fond-experience.jpeg"); */
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 75vh;
+    position: relative;
+}
+.gradientCSS > div > div > ul {
+    font-size: x-large;
+}
+
+.responsiveLinkHobbies {
+    padding-left: 0;
+}
+
+.responsiveLinkHobbies li {
+    word-wrap: break-word;
+}
+
+.responsiveLinkHobbies a {
+    word-break: break-all;
+    max-width: calc(100% - 1em); /* Ajustez cette valeur selon vos besoins */
+    display: inline-block;
+    /* overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; */
+}
+
+/*----------------------------------------------------------------
+Explications :
+
+word-wrap: break-word; permet aux mots de se casser à la fin de la ligne si nécessaire.
+word-break: break-all; force les mots à se casser si nécessaire.
+max-width: calc(100% - 1em); limite la largeur maximale des liens à 100% moins un certain espace (1em dans cet exemple).
+display: inline-block; permet aux liens de s'ajuster en fonction de leur contenu.
+overflow: hidden; cache tout contenu dépassant de la largeur spécifiée.
+text-overflow: ellipsis; ajoute des points de suspension à la fin du lien si celui-ci est coupé.
+white-space: nowrap; empêche les sauts de ligne à l'intérieur des liens.
+Vous pouvez ajuster les valeurs de max-width et d'autres propriétés CSS selon vos besoins 
+
+------------------------------------------------------------------*/

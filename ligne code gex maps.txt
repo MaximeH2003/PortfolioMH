@@ -1,0 +1,12 @@
+    <!-- CONTACTS -->
+    <section class="contact section whiteSection" id="contact">
+        <div class=" mx-auto mt-4 mt-lg-0 mt-md-0 col-lg-5 col-md-6 col-12">
+            <h2 class="mb-4" data-aos="fade-up" data-aos-delay="600">J'ai vécu 20 année au pays de Gex :</h2>
+            <p data-aos="fade-up" data-aos-delay="800"><i class="fa fa-map-marker mr-1"></i> Le pays de GEX - Gex la ville</p>
+    
+            <div class="google-map" data-aos="fade-up" data-aos-delay="900">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44062.420884550425!2d6.007649816404659!3d46.35150314603324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c6005fcbd51a9%3A0x408ab2ae4c20ed0!2s01170%20Gex!5e0!3m2!1sfr!2sfr!4v1696258599372!5m2!1sfr!2sfr"
+                    width="2048" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
