@@ -87,9 +87,31 @@ Veilles Technologiques
     min-height: 24vh;
     position: relative;
 }
-/* #divImgTechnology{
-    
-} */
+.littleImgTech{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#divImgTechnology{
+    display: flex;
+    justify-content: center space-around;
+    gap: 25px;
+    /* padding: 25px; */
+    /* position: relative;
+    box-shadow: 15px 15px 15px 10px rgba(0, 0, 0, 0.5);
+    margin: 10px; */
+}
+@media screen and (max-width: 767px) {
+    #divImgTechnology{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+
+.text-center{
+    text-align: center;
+}
 
 
 /*------------------------

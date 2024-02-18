@@ -410,16 +410,17 @@ a:focus {
     position: relative;
     height: 6.7em;
     margin: 5px;
+    white-space: nowrap; /* Empêche le texte de passer à la ligne suivante */
 }
 @media screen and (max-width: 900px) {
     .team-info{
         display: flex;
         align-items: center;
         height: 3.7em;
-        padding: 20px 20px 20px 20px;        
+        padding: 20px 20px 20px 20px;    
     }
     .team-info > h3{
-        font-size: 300%;
+        font-size: 280%;
     }
 }
 
