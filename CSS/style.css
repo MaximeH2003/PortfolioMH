@@ -26,7 +26,7 @@ Mes Projets Liens
 -----------------------------*/
 
 #Network{
-    background-image: url(../images/background.jpg);
+    background-image: url(/images/background.jpg);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
