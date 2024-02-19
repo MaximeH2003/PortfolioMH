@@ -94,29 +94,64 @@ Veilles Technologiques
 }
 #divImgTechnology{
     display: flex;
-    justify-content: center space-around;
+    justify-content: center;
     gap: 25px;
-    /* padding: 25px; */
-    /* position: relative;
-    box-shadow: 15px 15px 15px 10px rgba(0, 0, 0, 0.5);
-    margin: 10px; */
+    padding: 15px;
+    /* border:solid 2px black;
+    position: relative;
+    box-shadow: 15px 15px 15px 10px rgba(0, 0, 0, 0.5); */
+    margin: 10px;
+    /* width: 38rem; */
 }
 @media screen and (max-width: 767px) {
     #divImgTechnology{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
+        /* padding: 10px 10px 10px 10px;
+        width: 12rem; */
+        border:solid 1px black;
+        position: relative;
+        box-shadow: 15px 15px 15px 10px rgba(0, 0, 0, 0.5);
+        margin: 10px;
     }
-}
-@media screen and (max-width: 767px) {
+    
     div.col-lg-5 > img#imgTechnologyRight {
         margin-left: 50%;
         margin-right: 0px;
+    }
+
+    .marginHobbies{
+        margin-left:20px;
+        /* text-align:center; */
     }
 }
 
 .text-center{
     text-align: center;
+}
+
+/*------------------------
+FUN easter egg survoler
+-----------------------------*/
+.easter-egg::selection {
+    background-color:black;
+    font-weight:bold;
+    color:white;
+}
+/*------------------------
+SECTION CONTACTS
+-----------------------------*/
+.flexColumn{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width: 9rem;
+}
+#contacts{
+    height: 24rem;
 }
 
 

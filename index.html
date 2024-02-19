@@ -41,7 +41,7 @@
                         <a href="#about" class="nav-link smoothScroll">Qui suis-je ?</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#skills" class="nav-link smoothScroll">Mes compétences</a>
+                        <a href="#skills" class="nav-link smoothScroll">Compétences / Projets</a>
                     </li>
                     <li class="nav-item">
                         <a href="#feature" class="nav-link smoothScroll">Cursus</a>
@@ -71,14 +71,15 @@
                     <div class="hero-text mt-5 text-center">
                         <h6 data-aos="fade-up" data-aos-delay="300">Bienvenue sur mon site web</h6>
                         <h1 class="text-white" data-aos="fade-up" data-aos-delay="500">Maxime HENRIST</h1>
-                        <a href="#skills" class="btn custom-btn mt-3" data-aos="fade-up" data-aos-delay="600">Mes compétences</a>
+                        <a href="#contacts" class="btn custom-btn mt-3" data-aos="fade-up" data-aos-delay="600">Me contacter</a>
                         <a href="#feature" class="btn custom-btn bordered mt-3" data-aos="fade-up" data-aos-delay="700">Mon cursus Scolaire/projets...</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
+        <!-- SECTION ABOUT -->    
+
     <section class="about section" id="about">
         <div class="container">
             <div class="row">
@@ -86,7 +87,7 @@
                     <h2 class="mb-4">Bonjour, je m'apelle Maxime</h2>
                     <h6>
                         Je suis quelqu'un qui aime beaucoup la science, et les nouvelles technologies, j'essaie de me tenir à jour de manière récurente.
-                        <br>Je suis très créatif, je peux me concentrer sur beaucoup de choses qui m'intéresse à la fois.<br>
+                        <br>Je suis très créatif, calme et sérieux, je peux me concentrer sur beaucoup de choses qui m'intéresse à la fois.<br>
                         Je suis un développeur web passionné par la création de sites internet modernes.<br>
                         J'apprends en me renseignant en majorité sur google et chatgpt m'aide en m'expliquant beaucoup de notions différentes.
                     </h6>
@@ -122,6 +123,8 @@
             </div>
         </div>
     </section>
+
+<!-- SECTION SKILLS -->    
     <section class="section skills" id="skills">
         <div class="container" data-aos="fade-up">
             <div class="text-white" >
@@ -189,17 +192,22 @@
         <div class="container" data-aos="fade-up">
             <div class="row">
                 <div class="col-lg-4 col-md-10 mx-auto">
-                    <h3 class="text-white titleH6" data-aos="fade-up">Veilles technologiques :</h3>
-                    <h6 class="text-white">
+                    <h3 class="text-white titleH6 easter-egg" data-aos="fade-up">Veilles technologiques :</h3>
+                    <div class="text-white easter-egg" style=" font-size:25px;">
                         Je fais actuellement de la veille technologique sur les toutes nouvelles technologies 
                         où je me tient au courant à propos de la robotique, le domaine de la VR (Réalité Virtuelle) et de la conquête spatiale :
-                    </h6>
+                        <p class="text-white easter-egg"> 
+                            J'aime particulièrement me renseigner sur les lanceur des fusées spatiales SpaceX et d'autres futurs projets spatiaux international.                        </p>
+                        <p class="text-white easter-egg">
+                            Le domaine de la réalité virtuelle poussé vers le full-dive m'intéresse énormément, cependant il faut attendre que la recherche évolue... (ce ne sont que des recherches actuellement mais ça m'intéresse beaucoup)
+                        </p>
+                        <a class="btn custom-btn bordered mt-3 easter-egg" href="https://3dcreation.fr/la-technologie-full-dive-realite-virtuelle-futuriste/">pour en savoir plus... </a>
+                    </div>
                 </div>
-                
                 <div class="col-lg-5 text-white">
                     <ul class="noLi">
                         <li class="text-center">
-                            <h3>Je me renseigne parfois sur ce genre de site internet</h3>
+                            <h3 class="easter-egg">Je me renseigne parfois sur ce genre de site internet</h3>
                             <br>
                             <a style="font-weight:bold; font-size:large; text-decoration:underline; color:#ffd700;" href="https://www.veilletechno-it.info/spacenews-toute-lactualite-spatiale/">
                                 "CLIQUEZ ICI"
@@ -213,18 +221,17 @@
                     </div><br>
                     <div class="col-lg-5">
                         <img class="imgTechnologyRight" src="images/spatial.jpg" alt="">
-                </div>
+                    </div>
                 </div>
 
             </div>
         </div>
     </section>
 
-    <!-- SECTION RAJOUTEE -->
-    
+    <!-- SECTION RAJOUTEE -->    
     <section class="section gradientCSS" id="addSection">
         <div class="container">
-            <div class="flex-column text-white" data-aos="fade-up">
+            <div class="marginHobbies text-white" data-aos="fade-up">
                 <h3 class="titleH6" data-aos="fade-up">Mes centres d'intérêts :</h3>
                 <ul class="responsiveLinkHobbies">
                     <li class="ULI">J'ai passé 5 années aux <a class="linkClass" href="https://sites.sgdf.fr/n-d-de-la-route-blanche/presentation-du-groupe/">scouts de Ferney-voltaire</a></li>
@@ -255,6 +262,20 @@
             </div>
         </div>
     </section>
+    <!-- SECTION CONTACTS -->    
+    <section id="contacts" class="section">
+        <div class="container">
+            <div class="flex-column text-center text-white">
+                <h3 class="titleH6 ">Me contacter :</h3>
+                <select name="contactSelect" id="contactSelect">
+                    <option value="">-- Choisissez mon moyen de contact--</option>
+                    <option value="Linkeldin">Linkeldin</option>
+                    <option value="e-mail">maxime.henrist2023@gmail.com</option>
+                    <option value="Number">07-85-36-85-52</option>
+                </select>
+            </div>
+        </div>
+    </section>
 
     <!-- </footer> -->                
         
@@ -262,7 +283,8 @@
         <img src="images/top.png" class="icone" >
     </div>
            
-    </div>
+
+    <script src="JS/contacts.js"></script>
     <script src="JS/script.js"></script>
     <script src="JS/rid.js"></script>
     <script src="JS/jquery.min.js"></script>
