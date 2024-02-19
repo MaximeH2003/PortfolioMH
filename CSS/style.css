@@ -26,7 +26,7 @@ Mes Projets Liens
 -----------------------------*/
 
 #Network{
-    background-image: url(/images/background.jpg);
+    background-image: url(../images/background.jpg);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -56,7 +56,7 @@ Veilles Technologiques
 -----------------------------*/
 
 #technology{
-    background-image: url(/images/fondSpatial.jpg);
+    background-image: url(../images/fondSpatial.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     /* background-color: #171819; */    
