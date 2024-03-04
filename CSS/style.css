@@ -56,10 +56,13 @@ Veilles Technologiques
 -----------------------------*/
 
 #technology{
-    background-image: url(../images/fondSpatial.jpg);
+    background-image: url(/images/fondSpatial.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-color: #171819; */    
+    /* background-color: #171819; */
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
 }
 
 .flex-row {

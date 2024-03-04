@@ -9,13 +9,13 @@ selectElement.addEventListener('change', function() {
     // Vérification de la valeur sélectionnée
     if (selectedValue === 'e-mail') {
         // Si l'option e-mail est sélectionnée, afficher un popup pour envoyer un e-mail
-        alert('Un formulaire pour Maxime.henrist2023@gmail.com');
+        alert('Envoyez moi un mail à mon nouvel e-mail professionnel :  Maxime.henrist2023@gmail.com');
     } else if (selectedValue === 'Linkeldin') {
         // Si l'option Linkeldin est sélectionnée, rediriger vers la section appropriée de votre site
         window.location.href = 'https://www.linkedin.com/in/maxime-henrist-8206362b1/';
     } else if (selectedValue === 'Number') {
         // Si l'option Number est sélectionnée, vous pouvez ajouter ici une action spécifique, par exemple, ouvrir une popup pour afficher le numéro de téléphone
-        alert(' 07-85-36-81-52 ');
+        alert('Appelez moi, ou ajoutez moi sur WhattsApp au : 07-85-36-81-52 ');
     }
 });
 
